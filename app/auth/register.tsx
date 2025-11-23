@@ -39,7 +39,7 @@ export default function Register() {
       );
       setErrors({});
       
-      // Mock registration - in production, call your authentication API
+      
       dispatch(setUser({ name, email }));
       router.replace('/tabs');
     } catch (err: any) {
